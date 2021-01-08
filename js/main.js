@@ -80,7 +80,7 @@ btn.addEventListener('click', switchMode);
 function switchMode() {
     if (icon.classList == 'fas fa-toggle-on fa-2x') {
         icon.className = 'fas fa-toggle-off fa-2x';
-        document.body.setAttribute('style', ' background-image: url(../img/background3.jpg); transition: all 0.5s ease-in-out;');
+        document.body.setAttribute('style', 'background-image: url(./img/background3.jpg); transition: all 0.5s ease-in-out;');
         boxes_first[0].setAttribute('style', 'background-color: #6d8bad; transition: all 0.5s ease-in-out;');
         boxes_first[1].setAttribute('style', 'background-color: #6d8bad; transition: all 0.5s ease-in-out;');
         boxes_second[0].setAttribute('style', 'background-color: #dfb480; transition: all 0.5s ease-in-out;');
