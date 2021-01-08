@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 1rem;
+}
 body {
   margin: 0;
   background-image: url(../img/background.jpg);
@@ -12,6 +15,7 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   font-family: "Redressed", cursive;
+  width: 100%;
 }
 
 .countdown_outside {
@@ -27,8 +31,8 @@ body {
 }
 
 .boxes {
-  width: 180px;
-  height: 100px;
+  width: 11.25rem;
+  height: 6.25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,4 +91,34 @@ body {
    color: rgb(250, 194, 190);
    padding-right: 2rem;
    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.164);
+}
+
+@media (min-width : 320px) and (max-width : 374px){
+  html{
+    font-size: 0.3rem;
+  }
+}
+
+@media (min-width : 375px) and (max-width : 424px) {
+  html{
+    font-size: 0.4rem;
+  }
+}
+
+@media (min-width : 425px) and (max-width : 767px){
+  html{
+    font-size: 0.455rem;
+  }
+}
+
+@media (min-width : 768px) and (max-width : 967px) {
+  html{
+    font-size: 0.755rem;
+  }
+}
+
+@media (min-width : 968px){
+  html{
+    font-size: 1rem;
+  }
 }
