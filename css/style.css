@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   font-family: "Redressed", cursive;
   width: 100%;
+  transition: ease-in-out 0.5s all, background-image ease-in-out 0.5s;
 }
 
 .countdown_outside {
@@ -93,6 +94,45 @@ body {
    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.164);
 }
 
+/* dark mode */
+
+.inner_body_right{
+  position: absolute;
+  width: 50vw;
+  right: 0;
+  z-index: -1;
+  height: 100vh;
+}
+
+.inner_body_left{
+  position: absolute;
+  width: 50vw;
+  left: 0;
+  z-index: -1;
+  height: 100vh;
+}
+
+a{
+  cursor: pointer;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  border: none;
+  background-color: rgb(196, 230, 223);
+  border-radius: 999px;
+}
+
+.fa-toggle-on{
+  color:rgba(7, 7, 7, 0.699);
+  transition: color ease-in-out 0.5s;
+}
+
+.fa-toggle-off{
+  color:rgba(255, 255, 255, 0.582);
+  transition: color ease-in-out 0.5s;
+}
+/*  media */
+
 @media (min-width : 320px) and (max-width : 374px){
   html{
     font-size: 0.3rem;
@@ -120,5 +160,7 @@ body {
 @media (min-width : 968px){
   html{
     font-size: 1rem;
+    
   }
 }
+
