@@ -83,8 +83,8 @@ function switchMode() {
         document.body.setAttribute('style', ' background-image: url(../img/background3.jpg); transition: all 0.5s ease-in-out;');
         boxes_first[0].setAttribute('style', 'background-color: #6d8bad; transition: all 0.5s ease-in-out;');
         boxes_first[1].setAttribute('style', 'background-color: #6d8bad; transition: all 0.5s ease-in-out;');
-        boxes_second[0].setAttribute('style', 'background-color: #dfb480 transition: all 0.5s ease-in-out;');
-        boxes_second[1].setAttribute('style', 'background-color: #dfb480 transition: all 0.5s ease-in-out;');
+        boxes_second[0].setAttribute('style', 'background-color: #dfb480; transition: all 0.5s ease-in-out;');
+        boxes_second[1].setAttribute('style', 'background-color: #dfb480; transition: all 0.5s ease-in-out;');
         first_header.setAttribute('style', 'color: #dfb480; transition: all 0.5s ease-in-out;');
         second_header.setAttribute('style', 'color: #6d8bad; transition: all 0.5s ease-in-out;');
     } else{
