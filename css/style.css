@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Redressed&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(../img/background.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: "Redressed", cursive;
+}
+
+.countdown_outside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+}
+
+.countdown {
+  display: flex;
+}
+
+.boxes {
+  width: 180px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  margin: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.number {
+  font-size: 3.5rem;
+  font-weight: 200;
+  font-family: "Redressed", cursive;
+}
+
+.text {
+  font-family: "Bodoni Moda", serif;
+}
+
+.text_first,
+.number_first {
+  
+  color: rgba(0, 0, 0, 0.719);
+}
+
+.text_second,
+.number_second {
+    color: rgba(0, 0, 0, 0.726);
+
+}
+
+.boxes_first{
+    background-color: rgb(195, 229, 223);
+}
+
+.boxes_second{
+    background-color: rgb(250, 194, 190);
+}
+
+
+
+.countdown_header{
+    font-size: 4rem;
+    padding-right: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.first_header{
+    color: rgb(196, 230, 223);
+    padding-right: 5.5rem;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.164);
+}
+
+.second_header{
+   color: rgb(250, 194, 190);
+   padding-right: 2rem;
+   text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.164);
+}
