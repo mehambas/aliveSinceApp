@@ -6,7 +6,7 @@ var secondEl = document.getElementById('second_number');
 
 // birtdate 
 
-var welcome = prompt('Would you like to know, how long you have been alive for?')
+alert('Would you like to know, how long you have been alive for?')
 var yourYear = prompt(`In which year were you born?
 Example: 1990`);
 var yourMonth = prompt(`Which month were you born in? (numerical)
