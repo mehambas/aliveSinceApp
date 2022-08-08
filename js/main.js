@@ -7,23 +7,9 @@ var secondEl = document.getElementById('second_number');
 // birtdate 
 
 alert('Would you like to know, how long you have been alive for?')
-var yourYear = prompt(`In which year were you born?
-Example: 1990`);
-var yourMonth = prompt(`Which month were you born in? (numerical)
-January = 1
-February = 2
-March = 3
-April= 4
-May = 5
-June = 6
-July = 7
-August = 8
-September = 9
-October = 10
-November = 11
-December = 12`);
-var yourDay = prompt(`On what day were you born? (numerical)
-Example = 22`);
+var yourYear = '2020';
+var yourMonth = '12';
+var yourDay = '26';
 
 var yourBirth = new Date(yourYear, yourMonth-1, yourDay, 0, 0)
 
