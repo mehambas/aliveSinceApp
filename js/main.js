@@ -5,8 +5,6 @@ var minuteEl = document.getElementById('minute_number');
 var secondEl = document.getElementById('second_number');
 
 // birtdate 
-
-alert('Would you like to know, how long you have been alive for?')
 var yourYear = '2020';
 var yourMonth = '12';
 var yourDay = '26';
